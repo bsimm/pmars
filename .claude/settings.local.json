@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc:*)",
+      "Bash(make:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(./pmars:*)"
+    ],
+    "deny": []
+  }
+}
