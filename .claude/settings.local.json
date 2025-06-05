@@ -5,7 +5,8 @@
       "Bash(make:*)",
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(./pmars:*)"
+      "Bash(./pmars:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
