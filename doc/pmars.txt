@@ -754,7 +754,7 @@ EXAMPLE CDB COMMANDS
               fills addresses 0 through 100 with 'dat.f 0,0', not echoing  the
               changed addresses to the screen.
 
-       write trace.log step !
+       write trace.log~step !
               produces  a  continuous  execution trace by repeating step until
               pMARS terminates, saving the output to logfile "trace.log".
 
