@@ -2152,7 +2152,7 @@ load_macros(fnStr)
   char   *rv;
 
   if (!*fnStr)
-    strcpy(++fnStr, "pmars.mac");
+    strcpy(++fnStr, "../config/pmars.mac");
   if (!strcmp(fnStr, "user")) {        /* special symbol, read from stdin */
     mfp = stdin;
     cdb_fputs(dotByItselfEndsKeyboardInput, COND);
