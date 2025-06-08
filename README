@@ -172,4 +172,24 @@ Language support
     include the new str_???.c in the next release and might even release the
     foreign language binaries.
 
+____________________
+Build Information
+
+    This binary was compiled on:
+    Platform: Darwin (macOS)
+    Architecture: x86_64
+    Kernel: Darwin Kernel Version 21.6.0
+    Build Date: June 5, 2025
+    Compiler: clang (Xcode Command Line Tools)
+
+    Build configuration:
+    - EXT94: Enabled (ICWS'94 extensions)
+    - XWINGRAPHX: Enabled (X11 graphics via XQuartz)
+    - PERMUTATE: Enabled (-P switch)
+    - RWLIMIT: Enabled (read/write limits)
+
+    Notable fixes applied:
+    - Fixed cdb macro loading path (../config/pmars.mac)
+    - Added fulltrace macro for complete battle logging
+
 $Id: README,v 1.1.1.1 2000/08/31 10:22:56 iltzu Exp $
